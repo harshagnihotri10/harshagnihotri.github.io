@@ -16,8 +16,8 @@ const projectsContent = document.querySelector('#projects-content');
 about.addEventListener('click', () => {
   const aboutBox = new WinBox({
     title: 'About Me',
-    width: '400px',
-    height: '400px',
+    width: '60%',
+    height: '60%',
     top: 50,
     right: 50,
     bottom: 50,
@@ -37,8 +37,8 @@ contact.addEventListener('click', () => {
   const contactBox = new WinBox({
     title: 'Contact Me',
     background: '#00aa00', 
-    width: '400px',
-    height: '400px',
+    width: '60%',
+    height: '60%',
     top: 150,
     right: 50,
     bottom: 50,
@@ -64,8 +64,8 @@ skills.addEventListener('click', () => {
   const skillsBox = new WinBox({
     title: 'Skills',
     background: '#00aa00', 
-    width: '400px',
-    height: '400px',
+    width: '60%',
+    height: '60%',
     top: 150,
     right: 50,
     bottom: 50,
@@ -93,8 +93,8 @@ resume.addEventListener('click', () => {
   const resumeBox = new WinBox({
     title: 'Resume',
     background: '#00aa00', // Custom background color
-    width: '400px',
-    height: '400px',
+    width: '60%',
+    height: '60%',
     top: 150,
     right: 50,
     bottom: 50,
