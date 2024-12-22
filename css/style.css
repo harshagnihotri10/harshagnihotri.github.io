@@ -27,6 +27,7 @@ h1 {
 
 h2 , span{
   color: var(--text-color);
+  text-align: center;
 }
 
 h3 {
@@ -116,8 +117,8 @@ main h1 {
 .wb-body {
   background: #111;
   padding: 10px;
-  max-width: 800px; 
-  max-height: 800px;
+  max-width: 100%; 
+  max-height: 100%;
   margin: 0 auto;
   overflow-y: auto; 
 }
@@ -235,17 +236,31 @@ html {
 }
 
 #contact-content {
-  background-color: #1e1e1e;
+  /* background-color: #1e1e1e; */
   color: white;
-  padding: 50px;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 600px;
-  max-height: 600px;
-  margin: 10px auto;
+  padding: 20px;
+  /* border-radius: 10px; */
+  width: 90%;
+  max-width: 80%;
+  max-height: 80%;
+  margin: 10% auto;
   display: none;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  */
+}
+
+
+#skills-content {
+  /* background-color: #1e1e1e; */
+  color: white;
+  padding: 20px;
+  /* border-radius: 10px; */
+  width: 90%;
+  max-width: 80%;
+  max-height: 80%;
+  margin: 0px auto;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+  /* overflow-y: auto; */
 }
 
 #contact-content .terminal {
@@ -293,15 +308,16 @@ html {
 } 
 
 #skills-content {
-  background-color: #1e1e1e;
+  /* background-color: #1e1e1e; */
   color: white;
   padding: 20px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   width: 90%;
-  max-width: 600px;
-  margin: 50px auto;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  overflow-y: auto;
+  max-width: 80%;
+  max-height: 80%;
+  margin: 0px auto;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+  /* overflow-y: auto; */
 }
 
 #skills-content h2 {
@@ -339,21 +355,6 @@ html {
   font-size: 1.1em;
 }
 
-.progress {
-  flex: 2;
-  background-color: #2d2d2d;
-  border-radius: 5px;
-  overflow: hidden;
-  margin-left: 10px;
-  height: 10px;
-}
-
-.progress-bar {
-  height: 100%;
-  background-color: #007acc;
-  transition: width 0.4s ease;
-}
-
 .skills-category ul li:hover .progress-bar {
   background-color: #005f99;
 }
@@ -374,17 +375,18 @@ html {
 
 
 #education-content {
-  background-color: #1e1e1e;
+  /* background-color: #1e1e1e; */
   color: white;
-  padding: 50px;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 600px;
-  max-height: 600px;
+  padding: 20px;
+  /* border-radius: 10px; */
+  width: 90%;
+  max-width: 80%;
+  max-height: 200%;
   margin: 10px auto;
   display: none;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  overflow-y: auto;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  */
 }
 
 
@@ -430,16 +432,16 @@ hr {
 #experience-content {
   text-align: left;
   overflow-y: auto;
-  background-color: #1e1e1e;
+  /* background-color: #1e1e1e; */
   color: white;
-  padding: 50px;
-  border-radius: 10px;
-  width: 100%;
+  padding: 20px;
+  /* border-radius: 10px; */
+  width: 90%;
   max-width: 600px;
   max-height: 600px;
   margin: 10px auto;
   display: none;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  */
 }
 
 #experience-content h2 {
@@ -477,17 +479,17 @@ hr {
 }
 
 #projects-content {
-  overflow-y: auto;
-  background-color: #1e1e1e;
+  /* overflow-y: auto; */
+  /* background-color: #1e1e1e; */
   color: white;
-  padding: 50px;
-  border-radius: 10px;
-  width: 100%;
+  padding: 20px;
+  /* border-radius: 10px; */
+  width: 90%;
   max-width: 600px;
   max-height: 600px;
   margin: 10px auto;
   display: none;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  */
 }
 
 #projects-content h2 {
